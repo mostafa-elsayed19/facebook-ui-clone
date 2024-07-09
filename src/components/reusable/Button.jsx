@@ -6,7 +6,7 @@
  */
 function Button({ className, children }) {
 	return (
-		<button className={`ml-2 px-4 py-1 rounded ${className}`}>
+		<button className={`${className} ml-2 px-4 py-1 rounded`}>
 			{children}
 		</button>
 	);
