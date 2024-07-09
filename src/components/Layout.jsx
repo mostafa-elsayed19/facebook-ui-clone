@@ -1,15 +1,15 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import Container from "./reusable/Container";
+import Forgotten from "../pages/Forgotten";
+
 function Layout() {
 	return (
-		<main className="flex flex-col h-screen">
+		<main className="flex flex-col grow min-h-screen">
 			<Container>
 				<Header />
 			</Container>
-			<div className="grow bg-gray-300">
-				<Container>Hello</Container>
-			</div>
+			<Forgotten />
 			<Container>
 				<Footer />
 			</Container>
