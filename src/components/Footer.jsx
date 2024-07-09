@@ -40,8 +40,8 @@ const LANGS = ["English (UK)", "العربية"];
 
 function Footer() {
 	return (
-		<footer className="p-20">
-			<div className="m-auto w-4/6 flex flex-col justify-between">
+		<footer className="pt-20 pb-10">
+			<div className="m-auto w-5/6 flex flex-col justify-between">
 				<section>
 					<UnorderedList border={true}>
 						{LANGS.map((lang, index) => (

@@ -9,6 +9,8 @@
  * @returns
  */
 
+import { useEffect } from "react";
+
 function Input({
 	type = "text",
 	placeholder,
@@ -17,6 +19,9 @@ function Input({
 	setValue,
 	className,
 }) {
+	useEffect(() => {
+		console.log(value);
+	}, [value]);
 	return (
 		<input
 			className={`mx-auto my-2 px-2 py-2 border border-gray-400 rounded focus:outline-blue-400 placeholder:text-slate-600 focus:placeholder:text-slate-400 ${width} ${className}`}

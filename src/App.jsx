@@ -1,14 +1,9 @@
-// import { useState } from "react";
-
-import Footer from "./components/Footer";
-// import Input from "./components/reusable/Input";
+import Layout from "./components/Layout";
 
 function App() {
 	return (
 		<>
-			{/* <Input type="text" placeholder="Email address or phone" />
-			<Input type="password" placeholder="Password" /> */}
-			<Footer />
+			<Layout />
 		</>
 	);
 }
